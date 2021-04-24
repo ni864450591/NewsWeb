@@ -1,0 +1,25 @@
+body{
+    height: 100%;
+    background-color: #f0f2f5;
+}
+#root{
+height: 100%;
+}
+/* 整体布局的修改 */
+/* 防止屏幕太小导致样式变得动，这样屏幕小的话也不会变动，会出现滚动条 */
+.Layout{
+    height: 100%;
+    min-width:1200px;
+}
+.Header{
+    background-color: #fff;
+}
+.Content{
+    min-height: 600px;
+    margin:10px;
+}
+.Footer{
+    text-align: center;
+    border-top: 1px solid black;
+    padding:12px 50px !important;
+}
